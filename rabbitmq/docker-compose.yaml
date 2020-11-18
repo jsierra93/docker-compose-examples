@@ -1,0 +1,19 @@
+services:
+    rabbitmq:
+        image: rabbitmq:3-management
+        container_name: rabbitmq
+        volumes:
+           # - ./.docker/rabbitmq/etc/:/etc/rabbitmq/
+           # - ./.docker/rabbitmq/data/:/var/lib/rabbitmq/
+            - ./.docker/rabbitmq/logs/:/var/log/rabbitmq/
+            - "./enabled_plugins:/etc/rabbitmq/enabled_plugins"
+        environment:
+            RABBITMQ_ERLANG_COOKIE: "SWQOKODSQALRPCLNMEQG"
+            RABBITMQ_DEFAULT_USER: "dev1234"
+            RABBITMQ_DEFAULT_PASS: "dev1234"
+            RABBITMQ_DEFAULT_VHOST: "/"
+        ports:
+            - 5672:5672
+            - 15672:15672
+        labels:
+          NAME: "rabbitmq"
