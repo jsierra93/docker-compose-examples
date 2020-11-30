@@ -1,11 +1,13 @@
+use user-spring
+
 db.createUser(
     {
-        user: "dev124",
+        user: "dev1234",
         pwd: "dev1234",
         roles: [
             {
                 role: "readWrite",
-                db: "mongo-database"
+                db: "user-spring"
             }
         ]
     }
