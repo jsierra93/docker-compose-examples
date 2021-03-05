@@ -41,3 +41,4 @@ mongo/.DS_Store
 mongo/mongo-volume/
 rabbitmq/.DS_Store
 rabbitmq/.docker/
+Elastic_Kibana/data/
