@@ -15,4 +15,9 @@ para validar que los servicios estan corriendo correctamente, por medio del nave
 
 	 http://locahost:5601
 
-![KIBANA_RUNNING](/screenshot/KIBANA_RUNNING.JPG?raw=true "KIBANA_RUNNING")
+<div>
+    <img src="../screenshot/KIBANA_RUNNING.JPG" height="500px" width="600px"</img> 
+</div>
+</br>
+
+Los servicios estan listos para ser usados.
