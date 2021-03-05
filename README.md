@@ -9,3 +9,4 @@ Actualmente:
 4. MySQL
 5. IBM MQ
 6. SQS-Local
+7. ElasticSearch + Kibana
